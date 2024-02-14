@@ -6,17 +6,18 @@ html {
   font-size: 62.5%;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(38, 38, 38, 0.9);
 }
 html a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(38, 38, 38, 0.9);
 }
 
 body {
   max-width: 1000px;
   margin: auto;
-  border: 2px rgba(0, 0, 0, 0.5) solid;
+  border-right: 4px rgba(37, 37, 37, 0.8) solid;
+  border-left: 4px rgba(37, 37, 37, 0.8) solid;
 }
 
 li {
@@ -24,17 +25,30 @@ li {
 }
 
 header {
-  background: green;
+  background: radial-gradient(rgb(18, 130, 18), rgb(15, 158, 15));
 }
 header nav {
   font-size: 2.5rem;
-  display: flex;
+  border-bottom: 4px rgba(37, 37, 37, 0.8) solid;
 }
-header nav * {
-  display: inline;
+header nav ul {
+  display: flex;
+  margin: 0;
+}
+header nav a, header nav .logo {
+  border-right: 4px rgba(37, 37, 37, 0.8) solid;
+  padding: 18px 30px;
+  padding-top: 28px;
+  background: radial-gradient(rgb(18, 130, 18), rgb(15, 158, 15));
 }
 header nav .logo {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-family: "Satisfy", cursive;
+  padding-right: 70px;
+  display: inline-block;
+}
+header nav a:hover {
+  background: radial-gradient(rgb(17, 125, 17), rgb(12, 137, 12));
 }
 
 main {
@@ -53,19 +67,34 @@ main time {
 .articles-div {
   flex: 2;
 }
+.articles-div article {
+  padding: 20px 40px;
+}
+.articles-div p {
+  text-indent: 30px;
+}
 
 .recent-posts-sidebar-div {
   flex: 1;
-  border-left: 2px rgba(0, 0, 0, 0.5) solid;
+  border-left: 4px rgba(37, 37, 37, 0.8) solid;
 }
 
 footer {
-  background: black;
+  background: rgba(37, 37, 37, 0.95);
   color: white;
   font-size: 1.5rem;
+  text-align: center;
+  padding: 20px 0;
+}
+footer ul {
+  padding: 0;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
 }
 footer i {
   color: white;
+  padding: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
