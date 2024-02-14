@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+}
+html a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  border: 2px rgba(0, 0, 0, 0.5) solid;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background: green;
+}
+header nav {
+  font-size: 2.5rem;
+  display: flex;
+}
+header nav * {
+  display: inline;
+}
+header nav .logo {
+  font-size: 3rem;
+}
+
+main {
+  display: flex;
+}
+main h1 {
+  font-size: 3rem;
+}
+main p {
+  font-size: 2rem;
+}
+main time {
+  font-size: 2rem;
+}
+
+.articles-div {
+  flex: 2;
+}
+
+.recent-posts-sidebar-div {
+  flex: 1;
+  border-left: 2px rgba(0, 0, 0, 0.5) solid;
+}
+
+footer {
+  background: black;
+  color: white;
+  font-size: 1.5rem;
+}
+footer i {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
