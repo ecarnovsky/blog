@@ -19,6 +19,7 @@ body {
   border-right: 4px rgba(37, 37, 37, 0.8) solid;
   border-left: 4px rgba(37, 37, 37, 0.8) solid;
   background-color: #fafafa;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 li {
@@ -102,18 +103,37 @@ footer {
   color: white;
   font-size: 1.5rem;
   text-align: center;
-  padding: 20px 0;
+  padding: 0;
   font-weight: 700;
 }
 footer ul {
   padding: 0;
+  padding-top: 20px;
   padding-bottom: 5px;
   display: flex;
   justify-content: center;
 }
+footer small {
+  padding-bottom: 20px;
+  display: inline-block;
+}
 footer i {
   color: white;
   padding: 0 10px;
+}
+
+.colored-dividers {
+  height: 10px;
+  width: 100%;
+  background: #ff7931;
+}
+
+header .colored-dividers {
+  border-bottom: 4px rgba(37, 37, 37, 0.8) solid;
+}
+
+footer .colored-dividers {
+  border-top: 4px rgba(37, 37, 37, 0.8) solid;
 }
 
 /*# sourceMappingURL=style.css.map */
