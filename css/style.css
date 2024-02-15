@@ -18,7 +18,7 @@ body {
   margin: auto;
   border-right: 4px rgba(37, 37, 37, 0.8) solid;
   border-left: 4px rgba(37, 37, 37, 0.8) solid;
-  background-color: #fafafa;
+  background-color: #f1f1f1;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -42,7 +42,7 @@ header nav a, header nav .logo {
   padding: 18px 30px;
   padding-top: 28px;
   background: radial-gradient(rgb(18, 130, 18), rgb(15, 158, 15));
-  color: rgb(38, 38, 38);
+  color: white;
   font-weight: 500;
 }
 header nav .logo {
@@ -52,12 +52,12 @@ header nav .logo {
   display: inline-block;
 }
 header nav a:hover {
-  background: radial-gradient(rgb(61, 103, 61), rgb(12, 137, 12));
+  background: radial-gradient(rgb(43, 175, 43), rgb(15, 158, 15));
 }
 
 main {
   display: flex;
-  background: #f4f4f4;
+  background: white;
 }
 
 .articles-div {

@@ -27,7 +27,7 @@ body {
     margin: auto;
     border-right: $defaultBorder;
     border-left: $defaultBorder;
-    background-color: #fafafa;
+    background-color: #f1f1f1;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
 }
 
@@ -42,13 +42,10 @@ header {
 
     background: $defaultNavColor;
 
-
-
     nav {
         font-size: 2.4rem;
         border-bottom: $defaultBorder;
         
-
         ul {
             display: flex;
             margin: 0;
@@ -57,8 +54,8 @@ header {
             border-right: $defaultBorder;
             padding: 18px 30px;
             padding-top: 28px;
-            background: $defaultNavColor;
-            color: rgb(38, 38, 38);
+            background: $defaultNavColor; 
+            color: white; // old color: rgb(38, 38, 38)
             font-weight: 500;
             
 
@@ -70,7 +67,7 @@ header {
             display: inline-block;
         }
         a:hover {
-            background: radial-gradient(rgb(61, 103, 61),rgb(12, 137, 12));;
+            background: radial-gradient(rgb(43, 175, 43),rgb(15, 158, 15));
         }
     }
 }
@@ -80,7 +77,7 @@ header {
 main {
 
     display: flex;
-    background: #f4f4f4;
+    background: white
 
 }
 
