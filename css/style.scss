@@ -27,6 +27,7 @@ body {
     margin: auto;
     border-right: $defaultBorder;
     border-left: $defaultBorder;
+    background-color: #fafafa;
 }
 
 li {
@@ -43,7 +44,7 @@ header {
 
 
     nav {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
         border-bottom: $defaultBorder;
         
 
@@ -56,6 +57,9 @@ header {
             padding: 18px 30px;
             padding-top: 28px;
             background: $defaultNavColor;
+            color: rgb(38, 38, 38);
+            font-weight: 500;
+            
 
         }
         .logo{
@@ -65,7 +69,7 @@ header {
             display: inline-block;
         }
         a:hover {
-            background: radial-gradient(rgb(17, 125, 17),rgb(12, 137, 12));;
+            background: radial-gradient(rgb(61, 103, 61),rgb(12, 137, 12));;
         }
     }
 }
@@ -75,26 +79,42 @@ header {
 main {
 
     display: flex;
+    background: #f4f4f4;
 
-    h1 {
-        font-size: 3rem;
-    }
-    p {
-        font-size: 2rem;
-    }
-    time {
-        font-size: 2rem;
-    }
 }
 
 .articles-div {
     flex: 2;
 
+
     article {
         padding: 20px 40px;
     }
+    .img-container {
+        max-width: 600px;
+        height: 300px;
+        overflow: hidden;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 15px;
+
+        img {
+            margin-top: -160px;
+            margin-left: -200px;
+        }
+    }
+    h1 {
+        font-size: 3rem;
+    }
     p {
-        text-indent: 30px;
+        font-size: 2rem;
+        text-indent: 30px
+    }
+    time {
+        text-align: end;
+        display: block;
+        font-size: 2rem;
+        color:#727171;
     }
 }
 
@@ -106,11 +126,12 @@ main {
  /// FOOTER ///
  
 footer {
-    background:  rgba(37, 37, 37, 0.95) ;
+    background:  #303030; ;
     color: white;
     font-size: 1.5rem;
     text-align: center;
     padding: 20px 0;
+    font-weight: 700;
 
     ul {
         padding: 0;
