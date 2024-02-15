@@ -79,6 +79,7 @@ main {
 }
 .articles-div h1 {
   font-size: 3rem;
+  margin-bottom: 30px;
 }
 .articles-div p {
   font-size: 2rem;
