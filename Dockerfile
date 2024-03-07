@@ -4,3 +4,5 @@ COPY src /tmp/src/WORKDIR /tmp/
 RUN mvn package FROM openjdk:8-jdk-alpine
 COPY --from=MAVEN_TOOL_CHAIN  /tmp/target/*.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
+RUN mvn clean install
+RUN mvn spring-boot:run
