@@ -1,5 +1,9 @@
+
+
+
 HELP.md
-target/
+target/*
+!/target/blog-0.0.1-SNAPSHOT.jar
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -41,6 +45,7 @@ build/
 # Edit at https://www.toptal.com/developers/gitignore?templates=maven,java
 
 ### Java ###
+
 # Compiled class file
 *.class
 
