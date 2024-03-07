@@ -42,8 +42,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<start-class>com.blog.blog.BlogApplication</start-class>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+	
 
 </project>
