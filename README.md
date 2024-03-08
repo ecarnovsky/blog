@@ -5,4 +5,4 @@ Front End: HTML, CSS/SASS, and JS.
 
 Back End: Spring Boot with Maven.
 
-You can also see it in its current state [here](https://blog-4rqo.onrender.com) (Will take about three minutes to load).
+You can also see it in its current state [here](https://blog-4rqo.onrender.com) (Will take a few minutes to load).
