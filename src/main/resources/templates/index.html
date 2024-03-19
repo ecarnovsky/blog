@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 	<head>
     	<meta charset="utf-8">
     	<meta name="description" content="Elizabeth Carnovsky's personal blog">
@@ -49,8 +49,8 @@
 			<section class="articles-section">
 				<article>
 
-					<div class="img-container">
-						<img src="./images/flowers.jpg" alt="flowers">
+					<div th:each="item: ${images}" class="img-container">
+						<img th:src="@{'./images/' + ${item}}" alt="">
 					</div>
 
 					<time>February 13, 2024</time>
