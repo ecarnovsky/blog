@@ -3,6 +3,6 @@ This is going to be my future blog. I just started working on it on 2/13/24 so p
 
 Front End: HTML, CSS/SASS, and JS.
 
-Back End: Spring Boot with Maven.
+Back End: Spring Boot, Maven and Thymeleaf.
 
 You can also see it in its current state [here](https://blog-4rqo.onrender.com) (Will take a few minutes to load).
