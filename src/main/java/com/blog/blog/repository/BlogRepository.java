@@ -10,4 +10,5 @@ public interface BlogRepository extends MongoRepository<BlogPost, String> {
     @Query("{title:'?0'}")
     BlogPost findItembyTitle(String title);
 
+
 }

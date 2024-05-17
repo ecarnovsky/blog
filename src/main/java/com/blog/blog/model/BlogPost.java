@@ -3,7 +3,7 @@ package com.blog.blog.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document("blogpost")
+@Document("blogposts")
 public class BlogPost {
     
     @Id
